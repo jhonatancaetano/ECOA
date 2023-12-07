@@ -1,0 +1,143 @@
+.index {
+    background-color: #33a0e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .index .div {
+    background-color: #33a0e8;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .index .overlapgroup {
+    background-color: #000000;
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .index .textwrapper {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    left: 114px;
+    letter-spacing: -0.25px;
+    line-height: normal;
+    position: absolute;
+    top: 141px;
+    white-space: nowrap;
+  }
+  
+  .index .group {
+    height: 158px;
+    left: 114px;
+    position: absolute;
+    top: 217px;
+    width: 1147px;
+  }
+  
+  .index .image {
+    height: 158px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 281px;
+  }
+  
+  .index .img {
+    height: 158px;
+    left: 577px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 281px;
+  }
+  
+  .index .image2 {
+    height: 158px;
+    left: 289px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 281px;
+  }
+  
+  .index .image3 {
+    height: 158px;
+    left: 866px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 281px;
+  }
+  
+  .index .arrowleftcircle {
+    height: 51px;
+    left: 42px;
+    position: absolute;
+    top: 132px;
+    width: 51px;
+  }
+  
+  .index .group2 {
+    background-color: #333333;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .index .logo {
+    height: 26px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 17px;
+    width: 133px;
+  }
+  
+  .index .frame {
+    height: 23px;
+    left: 1320px;
+    position: absolute;
+    top: 22px;
+    width: 23px;
+  }
+  
+  .index .frame2 {
+    height: 21px;
+    left: 1360px;
+    position: absolute;
+    top: 22px;
+    width: 21px;
+  }
+  
+  .index .vector {
+    height: 15px;
+    left: 1398px;
+    position: absolute;
+    top: 25px;
+    width: 23px;
+  }
+  
+  .index .textwrapper2 {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    left: 1184px;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    position: fixed;
+    top: 21px;
+  }
+  
