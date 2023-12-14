@@ -1,5 +1,5 @@
 import styles from "./EventoCadastrado.module.css"; 
-import React, { useRef } from 'react';
+import React from 'react';
 
 const Home = () => {
 
@@ -16,7 +16,7 @@ const Home = () => {
           </a>
           <img
             className={styles.image}
-            alt="Image"
+            alt=""
             src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/65655560a24be33f7e19ce47/img/image-8.png"
           />
           <p className={styles.textwrapper}>Bate papo: A inteligência artificial e as ferramentas da indústria 4.0</p>
@@ -65,12 +65,12 @@ const Home = () => {
             </div>
             <img
               className={styles.img}
-              alt="Image"
+              alt=""
               src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/65655560a24be33f7e19ce47/img/image-9@2x.png"
             />
             <img
               className={styles.image2}
-              alt="Image"
+              alt=""
               src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/65655560a24be33f7e19ce47/img/image-10@2x.png"
             />
           </div>

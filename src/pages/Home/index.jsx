@@ -1,7 +1,41 @@
 import styles from "./Home.module.css"; 
-import React, { useRef } from 'react';
+import React, { useState, useRef , useEffect} from 'react';
+import axios from 'axios';
 
 const Home = () => {
+  const [eventos, setDados] = useState(null);
+  
+  useEffect(() => {
+    // Função para fazer a requisição ao endpoint
+    async function fetchData() {
+      try {
+        const response = await axios.get('http://172.105.154.34:3009/evento');
+        setDados(response.data); // Define os dados recebidos no estado
+      } catch (error) {
+        console.error('Erro ao obter dados:', error);
+      }
+    }
+
+    fetchData(); // Chama a função para fazer a requisição ao carregar o componente
+  }, []);
+
+  const handleSubmit = async () => {
+    const novoEvento = {
+      titulo: titulo.current.value,
+      palestrante: palestrante.current.value,
+      // Adicione os outros campos do formulário aqui
+    };
+
+    try {
+      const response = await axios.post('http://172.105.154.34:3009/evento', novoEvento);
+      console.log('Novo evento criado:', response.data);
+      // Faça algo com a resposta, se necessário
+    } catch (error) {
+      console.error('Erro ao criar novo evento:', error);
+    }
+  };
+
+
   const dateRef = useRef(null);
   const timeRef = useRef(null);
   const dateRef1 = useRef(null);
@@ -49,7 +83,6 @@ const Home = () => {
 
   };
   
-
   const inputRef = useRef(null);
   
   const handleSelectChange = (event) => {
@@ -167,7 +200,7 @@ const Home = () => {
               <div className={styles.overlapgroup2}>
                 <div className={styles.textwrapper26}>Adicionar novo evento</div>
                 <a href="http://localhost:3000/ver">
-                <button className={styles.button1}></button>
+                  <button className={styles.button1} onClick={handleSubmit}></button>
                 </a>
               </div>
             </div>

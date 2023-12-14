@@ -15,7 +15,7 @@ function Home() {
             </a>
             <img
                 className={styles.image}
-                alt="Image"
+                alt=""
                 src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/6567883e613e980d0630389d/img/image-8.png"
             />
             <p className={styles.textwrapper}>Som das Ideias: Podcast da Editora PUC-Rio | Tecnologia e vigilância de dados</p>
@@ -71,12 +71,12 @@ function Home() {
                 </div>
                 <img
                     className={styles.img}
-                    alt="Image"
+                    alt=""
                     src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/65655560a24be33f7e19ce47/img/image-9@2x.png"
                 />
                 <img
                     className={styles.image2}
-                    alt="Image"
+                    alt=""
                     src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/65655560a24be33f7e19ce47/img/image-10@2x.png"
                 />
                 </div>

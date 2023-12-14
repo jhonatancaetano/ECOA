@@ -11,23 +11,23 @@ function VerCadastrarEvento() {
             <a href="http://localhost:3000/eventocadastrado">
               <img
                 className={styles.image}
-                alt="Image"
+                alt=""
                 src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/655fc39084f33ca76ac7e557/img/image-4@2x.png"
               />
             </a>
             <img
               className={styles.img}
-              alt="Image"
+              alt=""
               src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/655fc39084f33ca76ac7e557/img/image-6@2x.png"
             />
             <img
               className={styles.image2}
-              alt="Image"
+              alt=""
               src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/655fc39084f33ca76ac7e557/img/image-5@2x.png"
             />
             <img
               className={styles.image3}
-              alt="Image"
+              alt=""
               src="https://cdn.animaapp.com/projects/655fc369c485099130b690f9/releases/655fc39084f33ca76ac7e557/img/image-7@2x.png"
             />
           </div>
