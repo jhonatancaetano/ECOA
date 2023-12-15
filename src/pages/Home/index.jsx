@@ -9,7 +9,7 @@ const Home = () => {
     // Função para fazer a requisição ao endpoint
     async function fetchData() {
       try {
-        const response = await axios.get("http://localhost:4000/evento");
+        const response = await axios.get("http://172.105.154.34:3009/evento");
         setDados(response.data); // Define os dados recebidos no estado
       } catch (error) {
         console.error("Erro ao obter dados:", error);
@@ -252,7 +252,7 @@ const Home = () => {
                 <div className={styles.textwrapper26}>
                   Adicionar novo evento
                 </div>
-                <a href="http://localhost:3000/ver">
+                <a href="http://172.105.154.34:3009/evento">
                   <button
                     className={styles.button1}
                     onClick={handleSubmit}
